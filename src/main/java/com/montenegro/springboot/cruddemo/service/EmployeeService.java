@@ -1,11 +1,10 @@
-package com.montenegro.springboot.cruddemo.dao;
+package com.montenegro.springboot.cruddemo.service;
 
 import com.montenegro.springboot.cruddemo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
-
+public interface EmployeeService {
 
     List<Employee> findAll();
 
@@ -15,6 +14,4 @@ public interface EmployeeDAO {
 
     void deleteById(int theId);
 
-
 }
-
